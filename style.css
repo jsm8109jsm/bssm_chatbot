@@ -1,0 +1,39 @@
+.root{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    box-sizing: border-box;
+    gap: 10px;
+    width: 100%;
+}
+
+.chat{
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    padding: 10px 20px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.right{
+    justify-content: right;
+}
+
+.left{
+    justify-content: left;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+
+}
